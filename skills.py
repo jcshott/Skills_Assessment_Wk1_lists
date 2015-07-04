@@ -70,9 +70,6 @@ def print_indeces(my_list):
     for item in my_list:                    #loop through list printing indices and item associated
         print my_list.index(item), item
 
-print_indeces(["Toyota", "Jeep", "Volvo"])
-
-
 def long_words(word_list):
     """Return all words in input list that are longer than 4 characters.
 
